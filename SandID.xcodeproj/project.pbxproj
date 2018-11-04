@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		578E45E5218D954500ED475B /* SandID.h in Headers */ = {isa = PBXBuildFile; fileRef = 578E45E3218D954500ED475B /* SandID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		578E45EC218D959700ED475B /* SandID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E45EB218D959700ED475B /* SandID.swift */; };
+		578E4678218F080900ED475B /* SandID.h in Headers */ = {isa = PBXBuildFile; fileRef = 578E45E3218D954500ED475B /* SandID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		578E4679218F082000ED475B /* SandID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E45EB218D959700ED475B /* SandID.swift */; };
+		578E467A218F082C00ED475B /* SandID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E45EB218D959700ED475B /* SandID.swift */; };
+		578E467B218F082E00ED475B /* SandID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E45EB218D959700ED475B /* SandID.swift */; };
+		578E467C218F083400ED475B /* SandID.h in Headers */ = {isa = PBXBuildFile; fileRef = 578E45E3218D954500ED475B /* SandID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		578E467D218F083A00ED475B /* SandID.h in Headers */ = {isa = PBXBuildFile; fileRef = 578E45E3218D954500ED475B /* SandID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +103,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578E4678218F080900ED475B /* SandID.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +111,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578E467C218F083400ED475B /* SandID.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +119,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578E467D218F083A00ED475B /* SandID.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578E4679218F082000ED475B /* SandID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578E467A218F082C00ED475B /* SandID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578E467B218F082E00ED475B /* SandID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
