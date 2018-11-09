@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "578E466F218F00D200ED475B"
-               BuildableName = "SandID_macOS.framework"
+               BuildableName = "SandID.framework"
                BlueprintName = "SandID macOS"
                ReferencedContainer = "container:SandID.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "578E466F218F00D200ED475B"
-            BuildableName = "SandID_macOS.framework"
+            BuildableName = "SandID.framework"
             BlueprintName = "SandID macOS"
             ReferencedContainer = "container:SandID.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "578E466F218F00D200ED475B"
-            BuildableName = "SandID_macOS.framework"
+            BuildableName = "SandID.framework"
             BlueprintName = "SandID macOS"
             ReferencedContainer = "container:SandID.xcodeproj">
          </BuildableReference>

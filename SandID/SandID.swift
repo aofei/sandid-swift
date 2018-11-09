@@ -9,7 +9,7 @@
 import Foundation
 
 /// The ID of sand.
-public class SandID: Comparable {
+public class SandID: Comparable, Hashable {
 	/// Zero SandID.
 	static let zero = SandID(data: Data(repeating: 0, count: 16))!
 
@@ -27,6 +27,11 @@ public class SandID: Comparable {
 	/// A Boolean value indicating whether the current SandID is zero.
 	public var isZero: Bool {
 		return self == SandID.zero
+	}
+
+	/// The hash value.
+	public var hashValue: Int {
+		return ObjectIdentifier(self).hashValue
 	}
 
 	/// Initialize.

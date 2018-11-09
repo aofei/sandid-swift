@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "578E461B218EFEE000ED475B"
-               BuildableName = "SandID_watchOS.framework"
+               BuildableName = "SandID.framework"
                BlueprintName = "SandID watchOS"
                ReferencedContainer = "container:SandID.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "578E461B218EFEE000ED475B"
-            BuildableName = "SandID_watchOS.framework"
+            BuildableName = "SandID.framework"
             BlueprintName = "SandID watchOS"
             ReferencedContainer = "container:SandID.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "578E461B218EFEE000ED475B"
-            BuildableName = "SandID_watchOS.framework"
+            BuildableName = "SandID.framework"
             BlueprintName = "SandID watchOS"
             ReferencedContainer = "container:SandID.xcodeproj">
          </BuildableReference>
