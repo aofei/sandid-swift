@@ -21,7 +21,10 @@ public class SandID: Comparable, Hashable {
 
 	/// The string representation of the current SandID.
 	public var string: String {
-		return data.map { String(format: "%02hhx", $0) }.joined()
+		return data.base64EncodedString()
+			.replacingOccurrences(of: "+", with: "-")
+			.replacingOccurrences(of: "/", with: "_")
+			.replacingOccurrences(of: "=", with: "")
 	}
 
 	/// A Boolean value indicating whether the current SandID is zero.
@@ -68,33 +71,15 @@ public class SandID: Comparable, Hashable {
 	/// - Parameters:
 	///   - string: The string representation of the SandID to be initialized.
 	public init?(string: String) {
-		if string.count != 32 {
+		if string.count != 22 {
 			return nil
 		}
 
-		data = Data()
-
-		var sum = 0
-		for (index, c) in string.utf8CString.enumerated() {
-			var intC = Int(c.byteSwapped)
-			if intC == 0 {
-				break
-			} else if intC >= 48 && intC <= 57 {
-				intC -= 48
-			} else if intC >= 65 && intC <= 70 {
-				intC -= 55
-			} else if intC >= 97 && intC <= 102 {
-				intC -= 87
-			} else {
-				return nil
-			}
-
-			sum = sum * 16 + intC
-			if index % 2 != 0 {
-				data.append(UInt8(sum))
-				sum = 0
-			}
+		guard let data = Data(base64Encoded: string.replacingOccurrences(of: "-", with: "+").replacingOccurrences(of: "_", with: "/").appending("==")) else {
+			return nil
 		}
+
+		self.data = data
 	}
 
 	/// Reports whether two values are equal.
