@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'SandID'
   s.version  = '1.0.0'
-  s.license  = { :type => 'Unlicense', :file => 'LICENSE' }
+  s.license  = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage = 'https://github.com/aofei/sandid-swift'
   s.author   = { 'Aofei Sheng' => 'aofei@aofeisheng.com' }
   s.summary  = 'Every grain of sand on earth has its own ID.'
